@@ -147,18 +147,12 @@ p {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--title-text-color);
-  font-weight: 500;
-  letter-spacing: 0.02em;
 }
 
 .site-nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav-list-item-link {
-  color: var(--accent-color);
-}
 .active-list-item::after {
   display: block;
   position: absolute;
@@ -169,7 +163,6 @@ p {
   background-color: var(--accent-color);
   border-radius: 2px;
   margin-top: 28px;
-  /* opacity: 0;*/
 }
 
 /*.site-nav-list-item-link:hover::after,
@@ -198,6 +191,9 @@ p {
   color: var(--accent-color);
 }
 
+.site-nav-list .active-list-item {
+  color: var(--accent-color);
+}
 .contacts-list .link {
   font-weight: 500;
   font-size: 14px;
