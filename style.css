@@ -320,7 +320,7 @@ p {
   display: block;
   border-radius: 4px;
   box-shadow: none;
-  min-width: 136px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 6px;
